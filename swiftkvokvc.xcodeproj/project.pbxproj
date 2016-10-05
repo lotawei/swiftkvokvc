@@ -12,6 +12,7 @@
 		ED9588611DA51E9000291311 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED95885F1DA51E9000291311 /* Main.storyboard */; };
 		ED9588631DA51E9000291311 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED9588621DA51E9000291311 /* Assets.xcassets */; };
 		ED9588661DA51E9000291311 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED9588641DA51E9000291311 /* LaunchScreen.storyboard */; };
+		ED95886E1DA51E9000291311 /* MyObjectToObserve.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED95886D1DA51E9000291311 /* MyObjectToObserve.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		ED9588621DA51E9000291311 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ED9588651DA51E9000291311 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ED9588671DA51E9000291311 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED95886D1DA51E9000291311 /* MyObjectToObserve.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyObjectToObserve.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 		ED95885A1DA51E9000291311 /* swiftkvokvc */ = {
 			isa = PBXGroup;
 			children = (
+				ED95886D1DA51E9000291311 /* MyObjectToObserve.swift */,
 				ED95885B1DA51E9000291311 /* AppDelegate.swift */,
 				ED95885D1DA51E9000291311 /* ViewController.swift */,
 				ED95885F1DA51E9000291311 /* Main.storyboard */,
@@ -138,6 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				ED95885E1DA51E9000291311 /* ViewController.swift in Sources */,
+				ED95886E1DA51E9000291311 /* MyObjectToObserve.swift in Sources */,
 				ED95885C1DA51E9000291311 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
